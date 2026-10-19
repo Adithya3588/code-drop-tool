@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "ignoreCase": true,
+  "scanKeys": false,
+  "rules": [
+    { "pattern": "tetherfi", "match": "contains", "severity": "Blocker" },
+    { "pattern": "test", "match": "wholeWord", "severity": "Blocker" },
+    { "pattern": "password", "match": "contains", "severity": "Blocker" },
+    { "pattern": "abc", "match": "wholeWord", "severity": "Warning" },
+    { "pattern": "x{3,}", "match": "regex", "severity": "Warning" },
+    { "pattern": "localhost", "match": "wholeWord", "severity": "Warning" },
+    { "pattern": "127.0.0.1", "match": "contains", "severity": "Warning" },
+    { "pattern": "example.com", "match": "wholeWord", "severity": "Warning" },
+    { "pattern": "change_me", "match": "contains", "severity": "Blocker" },
+    { "pattern": "changeme", "match": "contains", "severity": "Blocker" },
+    { "pattern": "todo", "match": "wholeWord", "severity": "Warning" },
+    { "pattern": "dummy", "match": "wholeWord", "severity": "Warning" },
+    { "pattern": "sample", "match": "wholeWord", "severity": "Warning" },
+    { "pattern":"dice", "match":"wholeWord", "severity":"Blocker"}
+  ],
+  "emptyRequiredKeys": [],
+  "allowlist": []
+}
